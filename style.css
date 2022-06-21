@@ -1,0 +1,80 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+* {
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 0 20px;
+    display: flex;
+    background-color: #171717;
+    color: #eee;
+}
+
+#main {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/andres-bonifacio.png);
+	background-size: cover;
+	position: relative;
+	background-repeat: no-repeat;
+    color: #171717;
+    overflow: hidden;
+}
+
+#overlay {
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/*#main {
+        background-color: #61120d;
+}*/
+ 
+#main #title {
+    text-align: center;
+    padding: 20px;
+    color: #eee;
+}
+
+#main #img-div #image {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+} 
+
+#main #img-div figcaption {
+    color: #eee;
+    text-align: center;
+    padding: 10px;
+}
+
+#tribute-info {
+    width: 100%;
+    background-color: #eee;
+    padding: 50px 10%;
+}
+
+#box {
+    margin-bottom: 20px;  
+}
+ 
+h2 {
+    margin-bottom: 10px;
+}
+
+#footer {
+    padding: 0 20px;
+    display: flex;
+    justify-content: end;
+    background-color: #171717;
+    color: #eee;
+}
